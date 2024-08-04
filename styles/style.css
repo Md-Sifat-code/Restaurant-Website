@@ -20,6 +20,11 @@
 * {
     margin: 0;
     padding: 0;
+
+}
+
+body {
+    width: 1280px;
 }
 
 /* Header part styles */
@@ -39,72 +44,80 @@
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+.logo {
     margin-left: 58px;
     /* margin-top: 23px; */
     color: rgb(255, 255, 255);
-font-family: Lily Script One;
-font-size: 22px;
-font-weight: 400;
-line-height: 39px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Lily Script One;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: left;
 }
-.navigation{
+
+.navigation {
     margin-right: 78px;
     width: 500px;
     /* border: 2px solid red; */
     height: auto;
 }
-.navigation>nav{
+
+.navigation>nav {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     flex-direction: row;
 }
-.navigation>nav>p{
-    color: rgb(0, 0, 0);
-font-family: Poppins;
-font-size: 16px;
-font-weight: 600;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-}
-.navigation>nav>button{
-    width: 77px;
-height: 32px;
-border-radius: 16px;
 
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-background: rgb(255, 255, 255);
-border: none;
+.navigation>nav>p {
+    color: rgb(0, 0, 0);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
 }
-.navigation>nav>button>a{
+
+.navigation>nav>button {
+    width: 77px;
+    height: 32px;
+    border-radius: 16px;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    border: none;
+}
+
+.navigation>nav>button>a {
     color: rgb(245, 152, 12);
-font-family: Poppins;
-font-size: 16px;
-font-weight: 700;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
-text-decoration: none;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
 }
+
 /* Hero Part CSS */
-.Hero{
+.Hero {
     width: 1156px;
-height: 594px;
-margin-top: 63px;
-margin-left: 60px;
-/* border: 2px solid red; */
-background: url(../images/Hero.png);
-border-radius: 34px;
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
+    height: 594px;
+    margin-top: 63px;
+    margin-left: 60px;
+    /* border: 2px solid red; */
+    background: url(../images/Hero.png);
+    border-radius: 34px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
-.head-disc{
+
+.head-disc {
     margin-top: -70px;
     height: auto;
     width: auto;
@@ -113,35 +126,125 @@ align-items: center;
     justify-content: center;
     align-items: center; */
 }
-.head-disc>h1{
+
+.head-disc>h1 {
     color: rgb(245, 152, 12);
-font-family: Lily Script One;
-font-size: 80px;
-font-weight: 400;
-line-height: 138px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Lily Script One;
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 138px;
+    letter-spacing: 0%;
+    text-align: left;
 }
-.head-disc>p{
+
+.head-disc>p {
     color: rgb(255, 255, 255);
-font-family: Poppins;
-font-size: 48px;
-font-weight: 400;
-line-height: 72px;
-letter-spacing: 0%;
-text-align: left;
-margin-left: 80px;
-margin-top: -20px;
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-left: 80px;
+    margin-top: -20px;
 }
-.free{
+
+.free {
     margin-top: 96px;
 }
-.free>p{
+
+.free>p {
     color: rgb(255, 255, 255);
-font-family: Poppins;
-font-size: 18px;
-font-weight: 600;
-line-height: 27px;
-letter-spacing: 0%;
-text-align: left;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+/* welcome part */
+.welcome {
+    width: 1280px;
+    height: 750px;
+    background: rgb(245, 152, 12);
+    /* display: grid;
+    grid-template-columns: 1fr 1fr; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* align-items: center; */
+    gap: 76px;
+
+}
+
+.wel-disc {
+    width: 522px;
+    height: auto;
+    margin-left: 58px;
+
+}
+
+.wel-disc>h1 {
+    color: rgb(255, 255, 255);
+    font-family: Lily Script One;
+    font-size: 90px;
+    font-weight: 400;
+    line-height: 124px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 167px;
+}
+
+.wel-disc>p {
+    color: rgb(237, 237, 237);
+    font-family: Times New Roman;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-top: 24px;
+}
+
+.wel-disc>button {
+    width: 145px;
+    height: 32px;
+    border-radius: 16px;
+
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(0, 0, 0);
+    border: none;
+    margin-top: 138px;
+}
+
+.wel-disc>button>a {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration: none;
+}
+.wel-pic{
+    width: 558px;
+    height: 567px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.wel-pic>img{
+    position: absolute;
+}
+#one{
+    left: -56px;
+top: 174px;
+z-index: 2;
+}
+#two{
+    left: 150px;
+top: 59px;
+z-index: 1;
 }
